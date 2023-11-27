@@ -1,6 +1,6 @@
 # CirsaWebApp
 
-Descripción corta y clara del proyecto.
+Proyecto de Web de afiliados.
 
 ## Contenido
 
@@ -15,7 +15,14 @@ Descripción corta y clara del proyecto.
 
 ## Introducción
 
-Breve descripción del propósito y objetivo del proyecto.
+Un proyecto para desarrollar una web de afiliados con registro, login y dashboard se intenta desarrollar 
+para plataformas moviles aunque el diseño de las interfaces tomo mas de la mitad del tiempo teniendo en 
+cuenta que durante las primeras 48h. el proyecto ha sido desarrollado por una sola persona, ademas 
+surgieron algunos problemas tecnicos como varios bloqueos de la maquina de desarrollo llegando incluso a 
+perderse 6H. de desarrollo de la tarde del Domingo 26-11-2023.
+
+se consiguen desarrollar 4 paginas Inicio-Login-Ragistro-Dashboard en gran parte a falta de algunas 
+funcionalidades se implementan los archivos CSS, 
 
 ## Tecnologías Utilizadas
 
@@ -23,32 +30,32 @@ Enumera las tecnologías principales utilizadas en el proyecto.
 
 - HTML
 - CSS
-- JavaScript
-- Swiper.js (u otra biblioteca utilizada)
+- C#
+- Blazor
 
 ## Estructura del Proyecto
 
-Explica la estructura del proyecto y cómo están organizados los archivos.
+
 
 ## Instrucciones de Instalación
 
-Proporciona instrucciones claras y concisas sobre cómo instalar y configurar el proyecto localmente.
+Facil desde el Terminal ejecutar el comando dotnet run y cargar el link que proporciana.
 
 ## Uso del Proyecto
 
-Explica cómo utilizar y ejecutar el proyecto. Incluye ejemplos si es necesario.
+
 
 ## Capturas de Pantalla
 
-Inserta imágenes que muestren ejemplos visuales del proyecto.
+ imágenes del proyecto.
 
-![Captura de Pantalla 1](/ruta/a/imagen1.png)
+![CIRSA_HOME_PAGE_2.png](https://github.com/Twinkym/CirsaWebApp/blob/main/wwwroot/CIRSA_HOME_PAGE_2.png)
 ![Captura de Pantalla 2](/ruta/a/imagen2.png)
 
 ## Contribuciones
 
-Explica cómo otros desarrolladores pueden contribuir al proyecto. Incluye instrucciones para la presentación de problemas y solicitudes de extracción.
+
 
 ## Licencia
 
-Indica la licencia bajo la cual se distribuye el proyecto.
+
