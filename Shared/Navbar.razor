@@ -1,0 +1,32 @@
+<!-- Shared/Navbar.razor -->
+
+<nav class="navbar">
+    <div class="navbar-logo">
+        
+        <img src="../wwwroot/Images/logo_original.svg" alt="Logo" />
+    </div>
+    <div class="navbar-links">
+        <a href="/">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Historia</a>
+        <a href="#">Contactanos</a>
+    </div>
+    <div class="navbar-buttons">
+        <img src="../wwwroot/Images/Cirsa.png"
+        <button class="btn-login" @onclick="NavigateToLogin">Login</button>
+        <button class="btn-register" @onclick="NavigateToRegister">Registro</button>
+    </div>
+</nav>
+
+@code {
+    private void NavigateToLogin()
+    {
+        NavigationManager.NavigateTo("../Pages/Login.razor");
+    }
+
+    private void NavigateToRegister()
+    {
+        NavigationManager.NavigateTo("../Pages/Register.razor");
+    }
+    @inject NavigationManager NavigationManager
+}

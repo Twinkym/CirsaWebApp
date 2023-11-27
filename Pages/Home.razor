@@ -1,0 +1,49 @@
+﻿@page "/"
+
+<div class="container">
+    <h1>Bienvenido a la Web de Afiliados</h1>
+    <p>Una descripción atractiva de la aplicación.</p>
+</div>
+
+<div class="slider-container">
+    <!-- Agrega las imágenes del slider desde la carpeta wwwroot/Images -->
+    @foreach (var slideIndex in Enumerable.Range(0, totalSlides))
+    {
+        <div class="@($"slider-item{(slideIndex == currentSlide ? " active" : "")}")">
+            <img src="../wwwroot/Images/@(slideIndex + 1).jpg" alt="Slide @(slideIndex + 1)" />
+            <div class="slide-text">
+                <!-- Slide text -->
+                <p>Texto del slide @(slideIndex + 1)</p>
+                <button @onclick="ExpandText">Leer más</button>
+            </div>
+        </div>
+    }
+
+    <!-- Slider Navigation Buttons (optional) -->
+    <div class="slider-nav">
+        <button @onclick="PreviousSlide">Anterior</button>
+        <button @onclick="NextSlide">Siguiente</button>
+    </div>
+</div>
+
+@code {
+    private int currentSlide = 0;
+    private int totalSlides = 5; 
+
+    private bool isActive = false;
+
+    private void NextSlide()
+    {
+        currentSlide = (currentSlide + 1) % totalSlides;
+    }
+
+    private void PreviousSlide()
+    {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+    }
+
+    private void ExpandText()
+    {
+        isActive = !isActive;
+    }
+}

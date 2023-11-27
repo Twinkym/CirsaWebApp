@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\obj\\Debug\\net8.0\\compressed\\6dg9il6wbd.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CirsaWebApp.styles.css",
+      "PackagePath": "staticwebassets\\CirsaWebApp.styles.css"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\Images\\CIRSA_HOLIDAY_OUT_RUN.png",
+      "PackagePath": "staticwebassets\\Images\\CIRSA_HOLIDAY_OUT_RUN.png"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\Images\\CIRSA_MINI_GUAY_1980.png",
+      "PackagePath": "staticwebassets\\Images\\CIRSA_MINI_GUAY_1980.png"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\Images\\Cirsa.png",
+      "PackagePath": "staticwebassets\\Images\\Cirsa.png"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\Images\\Logo_original.png",
+      "PackagePath": "staticwebassets\\Images\\Logo_original.png"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\Images\\PINBALL_STAR-TREK.png",
+      "PackagePath": "staticwebassets\\Images\\PINBALL_STAR-TREK.png"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\Images\\default-avatar-profile-picture-male-icon.svg",
+      "PackagePath": "staticwebassets\\Images\\default-avatar-profile-picture-male-icon.svg"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\Images\\logo_original.svg",
+      "PackagePath": "staticwebassets\\Images\\logo_original.svg"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\Images\\minicherry3.png",
+      "PackagePath": "staticwebassets\\Images\\minicherry3.png"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\Images\\spin-and-win-fb10615.png",
+      "PackagePath": "staticwebassets\\Images\\spin-and-win-fb10615.png"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\css\\DashboardStyles.css",
+      "PackagePath": "staticwebassets\\css\\DashboardStyles.css"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\navbar.css"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\css\\slides.css",
+      "PackagePath": "staticwebassets\\css\\slides.css"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "F:\\PROGRAMACION\\HACKATON'S\\CirsaWebApp\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CirsaWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CirsaWebApp.props",
+      "PackagePath": "build\\CirsaWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CirsaWebApp.props",
+      "PackagePath": "buildMultiTargeting\\CirsaWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CirsaWebApp.props",
+      "PackagePath": "buildTransitive\\CirsaWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

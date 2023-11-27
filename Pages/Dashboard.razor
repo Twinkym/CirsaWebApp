@@ -1,0 +1,42 @@
+@page "/dashboard"
+@inject IJSRuntime JSRuntime
+@using CirsaWebApp.Shared
+
+<div class="main-layout">
+        <Navbar />
+</div>
+<div class="container">
+    <h2>Dashboard de Afiliado</h2>
+    <!-- Contenido del Dashboard -->
+    <div class="user-card">
+    <form id="user-form">
+        <label for="avatar-upload">Avatar:</label>
+        <img id="avatar" src="./IMG/default-avatar-profile-picture-male-icon.svg" alt="Avatar del usuario">
+        <input type="file" id="avatar-upload" accept="image/*" onchange="updateAvatar()">
+        <button type="button" class="animated-button" onclick="toggleMenu()">Menú</button>
+        <div class="dropdown-menu">
+            <a href="#">Sección 1</a>
+            <a href="#">Sección 2</a>
+            <a href="#">Sección 3</a>
+            <!-- Add more options as needed -->
+        </div>
+        <div class="user-info">
+            <label for="user-description">Descripción:</label>
+            <textarea id="user-description" rows="3" placeholder="Ingresa tu descripción"></textarea><br>
+            <label for="user-balance">Balance:</label>
+            <p id="user-balance">$1000</p>
+        </div>
+
+    </form>
+
+</div>
+</div>
+<style>
+    /* Estilos especifícos del Dashboard */
+    link {
+        href: url('../wwwroot/css/DashboardStyles.css')
+        }
+</style>
+@code {
+    // Puedes agregar lógica del dashboard aquí
+}

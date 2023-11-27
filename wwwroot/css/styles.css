@@ -1,0 +1,42 @@
+/* wwwroot/css/styles.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* Añadido para bordes */
+}
+
+button {
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* responsiveness */
+@media (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
