@@ -50,7 +50,7 @@ Facil desde el Terminal ejecutar el comando dotnet run y cargar el link que prop
  imágenes del proyecto.
 
 ![CIRSA_HOME_PAGE_2](https://github.com/Twinkym/CirsaWebApp/blob/main/wwwroot/CIRSA_HOME_PAGE_2.png)
-![Captura de Pantalla 2](/ruta/a/imagen2.png)
+
 
 ## Contribuciones
 
